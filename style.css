@@ -38,7 +38,7 @@ h1{
 }
 .flexable{
     display: flex;
-    margin
+    margin: 100px;
 }
 .width{
     width: 50%;
@@ -55,4 +55,24 @@ h1{
     border-radius: 10px;
     box-shadow: 5px 5px 40px rgb(214, 94, 24);
 
+}
+
+.last-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(rgba(245, 98, 69, 0.938), rgba(221, 99, 51, 0.575));
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(47, 151, 221));
+    border-image-slice: 1;
 }
